@@ -1,0 +1,7 @@
+venv
+users.db
+Lib
+Scripts
+__pycache__
+.idea
+include
