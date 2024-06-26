@@ -8,6 +8,10 @@ class SUserAdd(BaseModel):
 class SUser(SUserAdd): # S озачает что это schema
     id: int
 
+    class Config:
+        orm_mode = True
+        from_attributes = True
+
 
 class SUserId(BaseModel):
     ok: bool = True
